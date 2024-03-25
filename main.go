@@ -1,12 +1,10 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/gomadoufu/system-programming-go/writer"
+	"github.com/gomadoufu/system-programming-go/reader"
 )
 
 func main() {
-	fmt.Println("Hello, World!")
-	writer.Writer()
+	// writer.Writer()
+	reader.Reader()
 }
