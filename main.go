@@ -1,9 +1,13 @@
 package main
 
-import "github.com/gomadoufu/system-programming-go/socket"
+import (
+	"github.com/gomadoufu/system-programming-go/sigcom"
+)
 
 func main() {
 	// writer.Writer()
 	// reader.Reader()
-	socket.TcpSocket()
+	// socket.TcpSocket()
+	// process.Process()
+	sigcom.Signal()
 }
