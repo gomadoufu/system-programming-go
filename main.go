@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gomadoufu/system-programming-go/sigcom"
+	"github.com/gomadoufu/system-programming-go/concurrency"
 )
 
 func main() {
@@ -9,5 +9,6 @@ func main() {
 	// reader.Reader()
 	// socket.TcpSocket()
 	// process.Process()
-	sigcom.Signal()
+	// sigcom.Signal()
+	concurrency.Concurrency()
 }
